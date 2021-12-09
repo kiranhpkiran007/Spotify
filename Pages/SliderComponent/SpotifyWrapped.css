@@ -1,0 +1,52 @@
+.spotifyWrappedBlock {
+  background-color: #f46ebe;
+  background-image: url("./SPOTIFYWRAPPED.svg");
+  background-position: right -1200px bottom -428px;
+  background-repeat: no-repeat;
+}
+.spotifyWrappedBlock article {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+    min-height: 600px;
+}
+
+.spotifyWrappedBlock article .LeftBlock {
+  flex-basis: 50%;
+  color: #202f72;
+  margin: 80px 0;
+}
+.spotifyWrappedBlock article .rightBolck {
+  flex-basis: 50%;
+}
+.LeftBlock h4 {
+  padding-bottom: 50px;
+  font-size: 14px;
+}
+.LeftBlock h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding-bottom: 40px;
+}
+.sotre {
+  display: flex;
+}
+.LeftBlock figure img:nth-child(2) {
+  width: 155px;
+  height: 60px;
+}
+.enjoy {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 37px;
+  letter-spacing: 1.3px;
+  line-height: 35px;
+}
+.copyright{
+  margin-top: 18px;
+}
+.copyright a{
+  /* text-decoration: none; */
+  color: #202f72;
+}

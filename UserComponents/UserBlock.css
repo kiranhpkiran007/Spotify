@@ -1,0 +1,68 @@
+#userBlock {
+  height: 100vh;
+}
+#userBlock article {
+  display: flex;
+  height: 100vh;
+}
+.userLeftBlock {
+  flex-basis: 20%;
+  background-color: black;
+}
+.userRightBlock {
+  flex-basis: 80%;
+  background-color: #1d1d1d;
+}
+.userLeftBlock svg {
+  fill: white;
+  height: 43px;
+  margin: 32px;
+}
+.userLeftBlock .userMenu {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  /* align-items: center; */
+}
+.userLeftBlock .userMenu ul {
+  list-style: none;
+}
+.userLeftBlock .userMenu ul li {
+  padding: 0 22px;
+}
+.userLeftBlock .userMenu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.userLeftBlock .userMenu ul li a i {
+  padding: 15px;
+  /* font-size: 22px; */
+}
+.userLeftBlock .playList ul {
+  display: flex;
+  flex-direction: column;
+  margin: 18px;
+}
+.userLeftBlock .playList ul li {
+  padding: -1px 22px;
+}
+.userLeftBlock .playList ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.userLeftBlock .playList ul li i {
+  padding: 15px;
+}
+.InstallApp ul {
+  display: flex;
+  flex-direction: column;
+  margin: 18px;
+}
+.InstallApp ul li:nth-child(2) {
+  margin-top: 215px;
+}
+.InstallApp ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 10px;
+}
